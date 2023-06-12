@@ -1,0 +1,33 @@
+
+
+  
+  .dropdown {
+    font-family: 'Nunito', sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: -20px;
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.22);
+    z-index: 10;
+    border-radius: 0 0 5px 5px;
+    
+    transition: all 5s;
+  }
+  
+  .dropdown:empty {
+    box-shadow: none;
+  }
+  
+  .dropdown-row {
+    cursor: pointer;
+    text-align: start;
+    padding: 5px 10px;
+    transition: all .15s;
+  }
+  .dropdown-row:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  

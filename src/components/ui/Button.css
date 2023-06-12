@@ -1,0 +1,40 @@
+
+
+.button{
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    align-items: center;
+}
+.btn{
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: #424242e6;
+    padding: 15px 35px;
+    border-radius: 25px;
+    border: none;
+    background-color: #F5EDDC;
+    transition: all .25s;
+}
+
+.btn:hover{
+    box-shadow: 0 3px 12px 2px rgba(0, 0, 0, 0.276);
+    margin-right: -1px;
+    padding: 31px 35.25px -0.5px;
+    background-color: #CFD2CF;
+    font-size: 15px;
+}
+
+.btn:active{
+    box-shadow: none;
+    cursor: grabbing;
+    padding: 15px 35px;
+    background-color: #CFD2CF;
+}
+
+@media screen  and (max-width: 480px){
+    .btn{
+        padding: 12px 30px;
+    }
+}

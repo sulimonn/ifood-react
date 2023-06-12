@@ -1,0 +1,64 @@
+.sh__input-group{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+}
+.sh__input__icon{
+    border-radius: 3px 0 0 3px;
+    margin-right: -2px;
+    height: 49px;
+    width: 60px;
+    background-color: #CFD2CF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #064420;
+}
+.sh__input{
+    flex: 1;
+    border-radius: 0 3px 3px 0;
+    padding: 15px 14px;
+    width: 1fr;
+    border: none;
+    font-size: 14px;
+    background-color: #F5EDDC;
+    font-family: 'Nunito', sans-serif;
+}
+.sh__input:focus{
+    outline: none;
+    pointer-events: none;
+    
+}
+@media screen and (max-width: 380px){
+    .sh__title{
+        font-size: 13px;
+    }
+    .sh__input{
+        padding: 6px 3px;
+    }
+    .sh__input__icon{
+        height: 33px;
+        width: 33px;
+    }
+    .flag{
+        height: 13px;
+    }
+}
+@media(max-width: 480px) and (min-width: 381px){
+    .sh__input__icon{
+        height: 49px;
+        padding: 0 13px;
+    }
+    .sh__title{
+        font-size: 16px;
+    }
+}
+@media (max-width: 600px) and (min-width: 481px){
+    .sh__title{
+        font-size: 18px;
+    }
+}

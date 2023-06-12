@@ -1,0 +1,11 @@
+.indRest{
+    padding-top: 75px;
+    background-color: #fefcf7;
+}
+.indRest__container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    height: 100%;
+}

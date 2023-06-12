@@ -1,0 +1,46 @@
+header{
+    font-family: 'Nunito', sans-serif;
+    position: fixed;
+    width: 100%;
+    background-color: #EB1D36;
+    z-index: 11;
+    top: 0;
+}
+.container{
+    padding-top: 15px;
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    position: relative;
+}
+.logo{
+    width: 100px;
+}
+.logopic{
+    width: inherit;
+}
+.logo_icon{
+    fill: #EF9A53;
+}
+.head-location{
+    position: absolute;
+    top: 36px;
+    font-weight: 700;
+    right: 150px;
+    color: #F5EDDC;
+    cursor: pointer;
+}
+
+.hidden{
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFE5B4;
+}
+@media screen  and (max-width: 480px){
+    .logo{
+        width: 80px;
+    }
+}
